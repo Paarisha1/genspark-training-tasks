@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind CSS Table</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body class="p-10">
+    <div >
+        <table class="min-w-full bg-white border border-gray-300">
+            <thead>
+                <tr>
+                    <th class="px-4 py-2 text-left border border-grey-300">Day</th>
+                    <th class="px-4 py-2 text-left border border-black-300">Schedule</th>
+                    <th class="px-4 py-2 text-left border border-black-300">Seminar</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="3" class="px-4 py-2 border border-gray-300 text-center">Monday</td>
+                    <td class="px-4 py-2 border border-gray-300">
+                        <div class="flex justify-between">
+                            <span class="bg-yellow-100">8:00 a.m.</span>
+                            <span class="bg-purple-200">5:00 p.m.</span>
+                        </div>
+                    </td>
+                    <td class="px-4 py-2 border border-gray-300">Introduction to XML</td>
+                </tr>
+                <tr>
+                    <td class="px-4 py-2 border border-gray-300">
+                        <div class="flex justify-between">
+                            <span class="bg-yellow-100">8:00 a.m.</span>
+                            <span class="bg-yellow-100">11:00 a.m.</span>
+                        </div>
+                    </td>
+                    <td class="px-4 py-2 border border-gray-300">Validity: DTD and Relax NG</td>
+                </tr>
+                <tr>
+                    <td class="px-4 py-2 border border-gray-300">
+                        <div class="flex justify-between">
+                            <span class="bg-yellow-100">11:00 a.m.</span>
+                            <span class="bg-green-400">2:00 p.m.</span>
+                        </div>
+                    </td>
+                    <td class="px-4 py-2 border border-gray-300">XPath</td>
+                </tr>
+                <tr>
+                    <td rowspan="2" class="px-4 py-2 border border-gray-300 text-center">Tuesday</td>
+                    <td class="px-4 py-2 border border-gray-300">
+                        <div class="flex justify-between">
+                            <span class="bg-green-400">2:00 p.m.</span>
+                            <span class="bg-purple-200">5:00 p.m.</span>
+                        </div>
+                    </td>
+                    <td class="px-4 py-2 border border-gray-300">XSL Transformations</td>
+                </tr>
+                <tr>
+                    <td class="px-4 py-2 border border-gray-300">
+                        <div class="flex justify-between">
+                            <span class="bg-yellow-100">8:00 a.m.</span>
+                            <span class="bg-green-400">12:00 p.m.</span>
+                        </div>
+                    </td>
+                    <td class="px-4 py-2 border border-gray-300">XSL Formatting Objects</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
