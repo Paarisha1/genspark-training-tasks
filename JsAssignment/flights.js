@@ -124,7 +124,7 @@ function bookFlight(flightNumber) {
 // - Write a function to add new flights to the `availableFlights` array. This function should take in flight details (number, from, to, price) and add the new flight to the array.
 
 function addFlight(flightNumber, from, to, price) {
-  availableFlights.push({ flightNumber, from, to, price });
+//   availableFlights.push({ flightNumber, from, to, price });
   console.log(`New flight ${flightNumber} from ${from} to ${to} added successfully.`);
 }
 
